@@ -9,5 +9,6 @@ public class StatisticsService {
             }
         }
         return currentMax;
+        System.out.println("incomes = " + java.util.Arrays.toString(incomes));
     }
 }
